@@ -1,6 +1,6 @@
 <p align="center">
   <a href="" rel="noopener">
- <img width=200px height=200px src="https://i.imgur.com/6wj0hh6.jpg" alt="Project logo"></a>
+ <img width=200px height=200px src="https://res.cloudinary.com/dwahdqsxe/image/upload/v1621490282/mainLogo_d9qyvf.png" alt="Project logo"></a>
 </p>
 
 <h3 align="center">Examade</h3>
@@ -16,7 +16,7 @@
 
 ---
 
-<p align="center"> Few lines describing your project.
+<p align="center"> Few lines describing project.
     <br> 
 </p>
 
