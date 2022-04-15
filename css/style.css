@@ -1,16 +1,20 @@
+/*Main Intro Block css code*/
 .landing-page-bg{
     background-image: linear-gradient(to bottom,#d88ff2,#9d74ed);
 }
+/*Partners Block*/
 .outer-block{
       bottom: 20px;
       z-index: 9999px;
   
 }
+/*Main Intro block image*/
 .landing-bg-image{
     width: 100%;
     height: 100%;
  
 }
+/*learn more btn*/
 .learn-more-btn{
     background-image: linear-gradient(120deg,#d88ff2,#9d74ed);
     color:white;
@@ -18,10 +22,12 @@
 }
 
 @media only screen and (max-width: 375px) {
+    /*Partners Block*/
     .outer-block {
      bottom: 20px;
     
     }
+    /*topics container*/
     .topics-container{
         overflow-x: scroll;
     }
@@ -52,7 +58,7 @@
     position:absolute;
     z-index: 9999px;
     background-color:whitesmoke;
-    padding:10px;
+    padding:8px;
     cursor: pointer;
   }
  
@@ -71,6 +77,7 @@
 
    .icon-direction-bg{
        background-color: blue;
+       
    }
 .image{
     width:30px;
@@ -119,4 +126,29 @@
 }
 .block-2{
     background-image: linear-gradient(to right,#e6e219,#f7f586);
+}
+.main-div-instruction{
+    z-index: 9999px;
+}
+.block-3{
+    background-image: linear-gradient(to right,#3162f5,#5e7ef2);
+}
+.notes_div{
+    z-index: 9999px;
+    bottom: 20px;
+}
+.arrow_new{
+    position:relative;
+    z-index: 9999px;
+    background-color:white;
+    padding:10px;
+    cursor: pointer;
+}
+.explore-more-btn{
+    background-image: linear-gradient(120deg,#02c4fa,#87d7ed);
+    color:black; 
+}
+.arrow-div{
+    position:relative;
+    z-index: 9999px;
 }
