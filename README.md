@@ -1,2 +1,2 @@
-# examade_frontend
+# examade_frontend repositary
 
