@@ -40,7 +40,14 @@
     .sub-topic-btn{
         margin-right: 6px;
     }
-    
+    .scroll-icon-1{
+        position: absolute;
+        top: 250px;
+    }
+    .scroll-icon-2{
+        position: absolute;
+        top: 250px;
+    }
   }
   .topics-container{
       
