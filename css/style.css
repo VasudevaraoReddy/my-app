@@ -32,28 +32,31 @@
         overflow-x: scroll;
     }
     
-    
+    /*topics container side arrows*/
     .arrow1,.arrow2{
         margin-top: 7px;
     }
-    
+    /*subtopics ssc exams*/
     .sub-topic-btn{
         margin-right: 6px;
     }
+    /*notes block - Gate Block side scroll icons*/
     .scroll-icon-1{
         position: absolute;
         top: 250px;
     }
+    /*notes block - Gate Block side scroll icons*/
     .scroll-icon-2{
         position: absolute;
         top: 250px;
     }
   }
+  /*ssc topics bg gradient colour*/
   .topics-container{
       
       background-image: linear-gradient(to bottom,#d88ff2,#9d74ed);
   }
-
+  /*ssc topics side arrow common css*/
   .arrow{
     position:absolute;
     z-index: 9999px;
@@ -61,94 +64,59 @@
     padding:8px;
     cursor: pointer;
   }
- 
+ /*ssc topics side left arrow*/
 .arrow1{
     color:darkmagenta;
     font-weight: bold;
     left: 0;
     
 }
+/*ssc topics side right arrow*/
 .arrow2{
     color:darkmagenta;
     font-weight: bold;
     right: 0;
     
 }
-
+/*arrows span element css*/
    .icon-direction-bg{
-       background-color: blue;
+       background-color:blue;
        
    }
+/*subtopics division nvs images css*/
 .image{
     width:30px;
     height:20px;
     padding:2px;
 }
+/*subtopics division nvs block radius*/
 .rounded-topics{
     border-radius:8px;
 }
-.search-icon{
-    position: absolute;
-    bottom:5px;
-}
-.butt{
-    position:absolute;
-    right:0;
-}
-.explore-butt{
-    right:0;
-}
+
+/*live classes images*/
 .live-img{
     width: 60px;
 }
-.live-butt{
-    height: 30px;
-}
-.title{
-    background-image: linear-gradient(to bottom,#d88ff2,#9d74ed);
-}
+
+/*examadeinformationdivision-outerblock-images css*/
 .info_div_img{
     height:60px;
     width: 80px;
 }
+/*examadeinformationdivision-outerblock-eachdiv css*/
 .info-div{
     background-image: linear-gradient(to bottom,#d88ff2,#9d74ed);
 }
-.live_coach_img{
-    width: 40px;
-    height:40px;
-}
+/*live-coaching-first-block batchclosessoon css*/
 .block{
     background-image: linear-gradient(to right,#34d111,#94f07f);
 }
+/*live-coaching-second-block batchclosessoon css and ExaNotes intro bg*/
 .block-1{
     background-image: linear-gradient(to right,#02c4fa,#87d7ed);
 }
+/*live-coaching-third-block batchclosessoon css*/
 .block-2{
     background-image: linear-gradient(to right,#e6e219,#f7f586);
-}
-.main-div-instruction{
-    z-index: 9999px;
-}
-.block-3{
-    background-image: linear-gradient(to right,#3162f5,#5e7ef2);
-}
-.notes_div{
-    z-index: 9999px;
-    bottom: 20px;
-}
-.arrow_new{
-    position:relative;
-    z-index: 9999px;
-    background-color:white;
-    padding:10px;
-    cursor: pointer;
-}
-.explore-more-btn{
-    background-image: linear-gradient(120deg,#02c4fa,#87d7ed);
-    color:black; 
-}
-.arrow-div{
-    position:relative;
-    z-index: 9999px;
 }
